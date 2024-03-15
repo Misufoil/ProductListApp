@@ -1,4 +1,4 @@
-package com.example.productlistapp.data.utils
+package com.example.productlistapp.data.mapper
 
 import com.example.productlistapp.data.dto.ProductInListDTO
 import com.example.productlistapp.presentation.view_object.ProductInListVO

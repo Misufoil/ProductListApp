@@ -1,4 +1,4 @@
-package com.example.productlistapp.data.retrofit.api
+package com.example.productlistapp.data.retrofit
 
 import com.example.productlistapp.data.dto.Product
 import retrofit2.Response
@@ -9,7 +9,7 @@ interface ProductApi {
 
     @GET("/products")
     suspend fun getProduct(
-        @Query("skip") skip: String,
-        @Query("limit") limit: String,
+        @Query("skip") skip: Int,
+        @Query("limit") limit: Int,
     ): Response<Product>
 }

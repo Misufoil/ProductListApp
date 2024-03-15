@@ -16,6 +16,7 @@ ext {
             OkHttp          : '4.12.0',
             paging          : '3.2.1',
             fragment          : '1.6.2',
+            dagger           : '2.51'
     ]
 
     coreKtx = "androidx.core:core-ktx:${versions.coreKtx}"
@@ -41,5 +42,8 @@ ext {
     paging = "androidx.paging:paging-runtime:${versions.paging}"
 
     fragment = "androidx.fragment:fragment-ktx:${versions.fragment}"
+
+    dagger = "com.google.dagger:dagger:${versions.dagger}"
+    daggerCompiler = "com.google.dagger:dagger-compiler:${versions.dagger}"
 
 }
